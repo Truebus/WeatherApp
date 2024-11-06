@@ -39,7 +39,7 @@ export const Weather = () => {
 
   return (
     <div>
-      <div className='bg-blue-600 h-[500px] w-96 p-5 m-auto border-2 border-black rounded-xl shadow-lg shadow-gray-50'>
+      <div className='bg-blue-500 h-[500px] w-96 p-5 m-auto border-2 border-black rounded-xl shadow-lg shadow-gray-50'>
         <div className='bg-white h-[450px] border rounded-md p-4'>
           <form onSubmit={handleSubmit}>
             <input 
